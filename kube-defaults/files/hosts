@@ -1,0 +1,9 @@
+127.0.0.1	salt-master	salt-master
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.66.21 salt-master
+192.168.66.22 kube-master1
+192.168.66.23 kube-master2
+192.168.66.24 kube-minion1
+192.168.66.25 kube-minion2
