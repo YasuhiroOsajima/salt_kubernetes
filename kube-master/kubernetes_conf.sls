@@ -1,6 +1,6 @@
 /etc/kubernetes/config:
   file.managed:
-    - source: salt://kube-master/files/kubernetes_config
+    - source: salt://salt_kubernetes/kube-master/files/kubernetes_config
     - user: root
     - group: root
     - mode: 644
@@ -8,7 +8,7 @@
 
 /etc/kubernetes/apiserver:
   file.managed:
-    - source: salt://kube-master/files/kubernetes_apiserver
+    - source: salt://salt_kubernetes/kube-master/files/kubernetes_apiserver
     - user: root
     - group: root
     - mode: 644

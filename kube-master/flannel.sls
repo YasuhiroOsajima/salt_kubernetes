@@ -1,6 +1,6 @@
 /etc/sysconfig/flanneld:
   file.managed:
-    - source: salt://kube-master/files/flanneld
+    - source: salt://salt_kubernetes/kube-master/files/flanneld
     - user: root
     - group: root
     - mode: 644

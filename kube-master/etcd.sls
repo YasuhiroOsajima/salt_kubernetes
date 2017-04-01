@@ -1,6 +1,6 @@
 /etc/etcd/etcd.conf:
   file.managed:
-    - source: salt://kube-master/files/etcd.conf
+    - source: salt://salt_kubernetes/kube-master/files/etcd.conf
     - user: root
     - group: root
     - mode: 644
